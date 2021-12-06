@@ -32,10 +32,10 @@ int main()
     }
     for (int i = 0; i < numb; i++)
     {
-        int cos;
-        cin >> cos;
-        cos--;
-        des[cos] = pos[i];
+        int number;
+        cin >> number;
+        number--;
+        des[number] = pos[i];
     }
     for (int i = 0; i < numb; i++)
     {
